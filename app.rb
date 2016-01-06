@@ -1,6 +1,6 @@
 require "sinatra/activerecord"
 require "sinatra"
-require "sqlite3"
+
 
 configure(:development){set :database, "sqlite3:herokudb.sqlite3"}
 require './models'
